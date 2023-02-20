@@ -50,7 +50,6 @@ function learn() {
 function code() {
     window.location.replace('code.html')
 }
-
 document.getElementById('name').innerHTML = localStorage.getItem('name');
 document.getElementById('role').innerHTML = localStorage.getItem('role');
 document.getElementById('badge').innerHTML = localStorage.getItem('badge');
